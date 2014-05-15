@@ -38,7 +38,7 @@
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"Hello World!" delegate:nil cancelButtonTitle:@"Hello" otherButtonTitles:nil];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Greetings" message:@"Hello World!" delegate:nil cancelButtonTitle:@"Hello" otherButtonTitles:nil];
     [alert show];
 }
 
