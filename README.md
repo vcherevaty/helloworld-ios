@@ -1,4 +1,4 @@
 helloworld-ios
 ==============
 
-This simple iOS app
+This is a simple iOS app.
