@@ -21,6 +21,7 @@
 		07569EF7192520480059CF69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07569ED9192520480059CF69 /* UIKit.framework */; };
 		07569EFF192520480059CF69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07569EFD192520480059CF69 /* InfoPlist.strings */; };
 		07569F01192520480059CF69 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07569F00192520480059CF69 /* HelloWorldTests.m */; };
+		07569F0C192522080059CF69 /* Green_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 07569F0B192522080059CF69 /* Green_star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		07569EFC192520480059CF69 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		07569EFE192520480059CF69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07569F00192520480059CF69 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		07569F0B192522080059CF69 /* Green_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green_star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		07569EC9192520480059CF69 = {
 			isa = PBXGroup;
 			children = (
+				07569F0A192522080059CF69 /* Images */,
 				07569EDB192520480059CF69 /* HelloWorld */,
 				07569EFA192520480059CF69 /* HelloWorldTests */,
 				07569ED4192520480059CF69 /* Frameworks */,
@@ -150,6 +153,14 @@
 				07569EFD192520480059CF69 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07569F0A192522080059CF69 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				07569F0B192522080059CF69 /* Green_star.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 				07569EEE192520480059CF69 /* Images.xcassets in Resources */,
 				07569EE0192520480059CF69 /* InfoPlist.strings in Resources */,
 				07569EE9192520480059CF69 /* Main.storyboard in Resources */,
+				07569F0C192522080059CF69 /* Green_star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
