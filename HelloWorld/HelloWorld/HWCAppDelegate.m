@@ -40,6 +40,8 @@
     
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Greetings" message:@"Hello World!" delegate:nil cancelButtonTitle:@"Hello" otherButtonTitles:nil];
     [alert show];
+    
+    NSLog(@"%s", __FUNCTION__);
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
